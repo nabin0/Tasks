@@ -17,7 +17,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             TasksTheme {
-                MusicPlayerScreen()
+                // MusicPlayerScreen()
+                NotificationPermissionScreen()
             }
         }
     }
